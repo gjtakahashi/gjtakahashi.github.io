@@ -3,7 +3,7 @@
   max-width: 800px;
   margin: 0 auto;
   margin-top: -0px; /* 一旦リセット */
-  margin-top: calc(-100px + 100px); /* 画像に重なる分 + さらに100px下げる */
+  margin-top: 40px; /* 画像に重なる分 + さらに100px下げる */
   background: rgba(255,255,255,0.95);
   border-radius: 16px;
   box-shadow: 0 2px 16px rgba(0,0,0,0.08);
