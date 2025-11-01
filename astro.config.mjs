@@ -4,5 +4,5 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	output: 'static',
-	site: 'https://gjtakahashi.github.io/gjtakahashi.github.io/'
+	site: 'https://gjtakahashi.github.io/'
 });
