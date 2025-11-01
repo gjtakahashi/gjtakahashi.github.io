@@ -2,29 +2,13 @@
 import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
 import Index from './posts/index1.md';
+import Footer from '../components/Footer.astro';
 
 ---
-
-<style>
-  /* Markdownブロック用 */
-  h1 {
-    font-size: 20rem;
-    color: #57c210ff;
-  }
-
-  .markdown-content h2 {
-    font-size: 1.5rem;
-    color: #4b5563;
-  }
-
-  .markdown-content p {
-    line-height: 2;
-  }
-</style>
 
 
 <Layout>
 	<Welcome />
 		<Index>
+	<Footer />
 </Layout>
-
