@@ -4,6 +4,7 @@
   margin: 0 auto;
   margin-top: -0px; /* 一旦リセット */
   margin-top: 40px; /* 画像に重なる分 + さらに100px下げる */
+  margin-bottom: 40px; /* 画像に重なる分 + さらに100px下げる */
   background: rgba(255,255,255,0.95);
   border-radius: 16px;
   box-shadow: 0 2px 16px rgba(0,0,0,0.08);
@@ -27,11 +28,6 @@
 }
 
 
-.content-field h2 {
-  margin-top: 0;
-  color: #333;
-  font-size: 2em;
-}
 .content-field p {
   color: #444;
   font-size: 1.1em;
@@ -174,4 +170,42 @@ body, html {
     height: 70px;
     font-size: 1em;
   }
+}
+
+
+.content-field h1 {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9fb; /* 薄いグレー背景 */
+  border-left: 8px solid #2c3e7d; /* 左の濃い青ライン */
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.content-field h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.4rem;
+  position: relative;
+  padding-bottom: 0.4rem;
+}
+
+.content-field h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background: linear-gradient(to right, #2b3c88 20%, #d5d8e4 20%);
+}
+
+footer {
+    background-color: #f1f1f1; /* フッターの背景色を設定 */
+    text-align: center;
+    padding: 10px 0;
+    font-size:0.8em;
 }
