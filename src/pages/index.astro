@@ -1,11 +1,30 @@
 ---
 import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
+import Index from './posts/index1.md';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
+
+<style>
+  /* Markdownブロック用 */
+  h1 {
+    font-size: 20rem;
+    color: #57c210ff;
+  }
+
+  .markdown-content h2 {
+    font-size: 1.5rem;
+    color: #4b5563;
+  }
+
+  .markdown-content p {
+    line-height: 2;
+  }
+</style>
+
 
 <Layout>
 	<Welcome />
+		<Index>
 </Layout>
+
