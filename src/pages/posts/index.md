@@ -25,7 +25,7 @@ tags: ["トップページ", "ゲームジャム", "お知らせ"]
 - [ゲームジャム高梁2022、3年ぶりにリアル会場でも開催でした！](https://www1.kiui.jp/pc/gakka/bunka/anime/blog/?p=5018) (2023年11月7日)
 - [ゲームジャム高梁2018＆からくり装置作りワークショップの2日間！](https://www1.kiui.jp/pc/gakka/bunka/anime/blog/?p=2629) (2018年10月31日)
 
-[ゲームジャム参加登録はこちら](https://okauni.connpass.com/event/367034/)
+<a class="link-button" href="https://okauni.connpass.com/event/367034/">ゲームジャム参加登録はこちら</a>
 
 
 ## ゲームジャムとは？
@@ -86,7 +86,9 @@ tags: ["トップページ", "ゲームジャム", "お知らせ"]
 
 もちろんゲームジャム高梁に参加しない方も大歓迎！ぜひお気軽にご参加ください。
 
-[事前勉強会の詳細・参加登録はこちら](https://hirouni.connpass.com/event/367035/)
+<a class="link-button" href="https://hirouni.connpass.com/event/367035/">
+事前勉強会の詳細・参加登録はこちら
+</a>
 
 
 
@@ -177,7 +179,11 @@ tags: ["トップページ", "ゲームジャム", "お知らせ"]
 
 **更新情報は随時Xからお知らせしますので、Xのフォローをお願いいたします！**
 
-- [@GJ__Takahashi](https://x.com/GJ__Takahashi)
+<a class="link-button" href="https://x.com/GJ__Takahashi">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 448 512" fill="white"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M357.2 48L427.8 48 273.6 224.2 455 464 313 464 201.7 318.6 74.5 464 3.8 464 168.7 275.5-5.2 48 140.4 48 240.9 180.9 357.2 48zM332.4 421.8l39.1 0-252.4-333.8-42 0 255.3 333.8z"/></svg>
+            @GJ__Takahashi
+</a>
+
 
 
 
@@ -240,4 +246,6 @@ tags: ["トップページ", "ゲームジャム", "お知らせ"]
 
 ゲームジャム高梁では協賛して頂ける方を随時募集しております。詳細は下記ページをご覧ください。
 
-[ゲームジャム高梁の協賛のお願い](https://gjtakahashi.okayamaunity.com/sponsor/)
+<a class="link-button" href="https://gjtakahashi.okayamaunity.com/sponsor/">
+ゲームジャム高梁の協賛のお願い
+</a>

@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP', '游ゴシック体', 'YuGothic', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, Arial, sans-serif;
+}
 .content-field {
   position: relative;
   max-width: 800px;
@@ -67,55 +75,7 @@ body, html {
   opacity: 0;
   pointer-events: none;
 }
-.menu {
-  position: absolute;
-  top: 24px;
-  right: 32px;
-  z-index: 10;
-}
-.menu-icon {
-  background: none;
-  border: none;
-  cursor: pointer;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0;
-}
-.menu-icon span {
-  display: block;
-  width: 30px;
-  height: 4px;
-  background: #fff;
-  border-radius: 2px;
-  margin: 3px 0;
-  transition: 0.3s;
-}
-.menu-list {
-  display: none;
-  position: absolute;
-  top: 50px;
-  right: 0;
-  background: rgba(0,0,0,0.85);
-  border-radius: 8px;
-  padding: 16px 24px;
-  list-style: none;
-  min-width: 160px;
-}
-.menu-list.active {
-  display: block;
-}
-.menu-list li {
-  margin: 12px 0;
-}
-.menu-list a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.1em;
-}
+
 .center-content {
   position: absolute;
   top: 50%;
@@ -203,6 +163,12 @@ body, html {
   background: linear-gradient(to right, #2b3c88 20%, #d5d8e4 20%);
 }
 
+.content-field p {
+  color: #555;
+  font-size: 1.1em;
+  line-height: 1.8;
+}
+
 footer {
     background-color: #f1f1f1; /* フッターの背景色を設定 */
     text-align: center;
@@ -216,18 +182,32 @@ footer {
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(189, 80, 124, 0.95);
+  background: rgba(189, 80, 80, 0.95);
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   z-index: 1000;
   transition: transform 0.3s, opacity 0.3s;
   transform: translateY(-100%);
   opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .navbar.visible {
   transform: translateY(0);
   opacity: 1;
 }
+.navbar-brand {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 32px;
+  margin-right: 24px;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
 .navbar-list {
+  flex: 1;
   display: flex;
   justify-content: flex-end;
   margin: 0;
@@ -249,9 +229,25 @@ footer {
   transition: background 0.2s;
 }
 .navbar-list a:hover {
-  background: #2b3c88;
+  background: #aa123b;
 }
 @media (max-width: 600px) {
+  .content-field {
+    margin-top: calc(-50px + 100px);
+    padding: 16px 6px;
+    max-width: 98vw;
+  }
+  .content-field h2 {
+    font-size: 1.3em;
+  }
+  .content-field p {
+    font-size: 1em;
+  }
+  .navbar-brand {
+    font-size: 1em;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
   .navbar-list {
     padding: 0 8px;
     font-size: 0.95em;
@@ -259,4 +255,31 @@ footer {
   .navbar-list li {
     margin-left: 12px;
   }
+  .join-circle {
+    right: 16px;
+    bottom: 16px;
+    width: 70px;
+    height: 70px;
+    font-size: 1em;
+  }
+}
+
+.link-button {
+  display: inline-block;
+  background: linear-gradient(90deg, #ff4081 0%, #2b3c88 100%);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.15em;
+  padding: 0.8em 2em;
+  border-radius: 32px;
+  text-decoration: none;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  transition: background 0.2s, transform 0.2s;
+  margin: 1em 0;
+  letter-spacing: 0.05em;
+}
+.link-button:hover {
+  background: linear-gradient(90deg, #e91e63 0%, #1a265a 100%);
+  transform: scale(1.05);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.18);
 }
