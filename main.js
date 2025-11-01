@@ -10,4 +10,5 @@ document.addEventListener('DOMContentLoaded', function() {
       menuList.classList.remove('active');
     }
   });
+
 });

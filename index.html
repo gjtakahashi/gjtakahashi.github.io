@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>トップページ一枚絵＋右上メニュー</title>
+  <title>aトップページ一枚絵＋右上メニュー</title>
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <div class="background"></div>
+  <div class="top-image">
+    <img src="src/assets/index/top_illust.jpg" alt="トップ画像">
+  </div>
   <header>
     <nav class="menu">
       <button class="menu-icon" aria-label="メニューを開く">
@@ -23,15 +25,11 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <!-- 画像の下側に表示するコンテンツフィールド -->
-    <div class="content-field">
-      <h2>コンテンツタイトル</h2>
-      <p>ここに自由なテキストやHTMLコンテンツを記載できます。</p>
-    </div>
-  </main>
+  <div class="content-field">
+    <h2>タイトル</h2>
+    <p>ここにコンテンツを記載します。</p>
+  </div>
   <a href="#" class="join-circle" aria-label="参加する！">参加する！</a>
-  </main>
   <script src="main.js"></script>
 </body>
 </html>
