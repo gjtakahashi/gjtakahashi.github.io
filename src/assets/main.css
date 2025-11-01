@@ -209,3 +209,54 @@ footer {
     padding: 10px 0;
     font-size:0.8em;
 }
+
+/* ナビゲーションバー用CSS */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(189, 80, 124, 0.95);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  z-index: 1000;
+  transition: transform 0.3s, opacity 0.3s;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.navbar.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+.navbar-list {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0 32px;
+  list-style: none;
+  height: 56px;
+  align-items: center;
+}
+.navbar-list li {
+  margin-left: 24px;
+}
+.navbar-list a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.navbar-list a:hover {
+  background: #2b3c88;
+}
+@media (max-width: 600px) {
+  .navbar-list {
+    padding: 0 8px;
+    font-size: 0.95em;
+  }
+  .navbar-list li {
+    margin-left: 12px;
+  }
+}

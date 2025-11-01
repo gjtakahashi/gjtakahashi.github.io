@@ -11,4 +11,16 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
+  // スクロール量でナビバー表示
+  const navbar = document.getElementById('navbar');
+  function handleNavbar() {
+    if (window.scrollY > 300) {
+      navbar && navbar.classList.add('visible');
+    } else {
+      navbar && navbar.classList.remove('visible');
+    }
+  }
+  window.addEventListener('scroll', handleNavbar);
+  handleNavbar(); // 初期表示
+
 });
