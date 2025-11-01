@@ -1,9 +1,9 @@
 ---
-import astroLogo from '../assets/astro.svg';
-import background from '../assets/background.svg';
+import { Image } from 'astro:assets';
+import topIllust from '../assets/index/top_illust.jpg';
 ---
   <div class="top-image">
-    <img src="src/assets/index/top_illust.jpg" alt="トップ画像">
+    <Image src={topIllust} alt="トップ画像">
   </div>
   <header>
     <nav class="menu">
@@ -22,4 +22,6 @@ import background from '../assets/background.svg';
   </header>
 
   <a href="https://okauni.connpass.com/event/367034/" class="join-circle" aria-label="参加する！">参加する！</a>
-  <script src="../assets/main.js"></script>
+ <script>
+   import "../assets/main.js";
+ </script>
