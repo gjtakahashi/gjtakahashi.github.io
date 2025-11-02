@@ -40,6 +40,14 @@ body, html {
   color: #444;
   font-size: 1.1em;
 }
+/* シルバーグラデーションテキスト */
+.silver-gradient {
+  background: linear-gradient(0deg,  #bfc1c2 60%, #a7a9ac 70%, #f5f5f5 75%, #7d7d7d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
 
 .content-field img {
   max-width: 100%;
@@ -386,4 +394,13 @@ th {
 td {
   padding: 10px;
   border: solid 1px #778ca3;
+}
+
+
+
+.bronze-gradient {
+  background: linear-gradient(0deg, #f8c471 0%, #cd7f32 25%, #b87333 50%, #ad8a56 75%, #7c4a02 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }

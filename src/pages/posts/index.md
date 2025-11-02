@@ -173,8 +173,9 @@ tags: ["トップページ", "ゲームジャム", "お知らせ"]
 
 ゲームジャム高梁への参加登録は下記コンパスからお申込みください。
 
-[ゲームジャム参加登録はこちら](https://okauni.connpass.com/event/367034/)
-
+<a class="link-button" href="https://okauni.connpass.com/event/367034/">
+ゲームジャム参加登録はこちら
+</a>
 
 
 # お知らせ
@@ -235,18 +236,25 @@ tags: ["トップページ", "ゲームジャム", "お知らせ"]
 
 # 協賛
 
-- Silver Sponsor: [株式会社なのです](https://nanodes.jp/)
-- Bronze Sponsor: [株式会社ルークシステム](https://lukesys.co.jp/), [燈屋](https://to-ya.org/), [れもん@プチゲー屋](https://www.lemonte.net/), [合同会社テゴ](https://te-go.co.jp/)
-- [株式会社共栄商事](https://kyoeigp.co.jp/)
-- [一般社団法人岡山県eスポーツ連合](https://okayama-e-sports.com/)
-- [ユニティ・テクノロジーズ・ジャパン株式会社](https://unity.com/ja)
-- [備北信用金庫](https://www.shinkin.co.jp/bihoku/)
+<h2 class="silver-gradient">Silver Sponsor</h2>
 
-個人協賛（掲載可の方）:  
+ - [株式会社なのです](https://nanodes.jp/)
+
+<h2 class="bronze-gradient">Bronze Sponsor</h2>
+
+ - [株式会社ルークシステム](https://lukesys.co.jp/)
+ - [燈屋](https://to-ya.org/)
+ - [れもん@プチゲー屋](https://www.lemonte.net/)
+ - [合同会社テゴ](https://te-go.co.jp/)
+ - [株式会社共栄商事](https://kyoeigp.co.jp/)
+ - [一般社団法人岡山県eスポーツ連合](https://okayama-e-sports.com/)
+ - [ユニティ・テクノロジーズ・ジャパン株式会社](https://unity.com/ja)
+ - [備北信用金庫](https://www.shinkin.co.jp/bihoku/)
+
+## 個人協賛（掲載可の方）
 ナカオクタカヒロ  
 なっきー  
 じむちょ@Roblox個人開発者
-
 
 
 # ゲームジャム高梁の協賛のお願い
