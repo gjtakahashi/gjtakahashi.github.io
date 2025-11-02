@@ -40,6 +40,12 @@ body, html {
   color: #444;
   font-size: 1.1em;
 }
+
+.content-field img {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (max-width: 600px) {
   .content-field {
     margin-top: calc(-50px + 100px);
