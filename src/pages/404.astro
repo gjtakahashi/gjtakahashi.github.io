@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Footer from '../components/Footer.astro';
+import NavBar from '../components/NavBar.astro';
+---
+
+
+<Layout>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.getElementById('navbar');
+            navbar && navbar.classList.add('visible');
+        });
+    </script>
+	<NavBar />
+	<div class="content-field">
+		ページが見つかりませんでした。
+        <br>
+        <a class="link-button" href="/">トップページに戻る</a>
+	</div>	
+	<Footer>
+</Layout>
