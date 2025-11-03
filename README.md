@@ -1,46 +1,60 @@
-# Astro Starter Kit: Basics
 
-```sh
-npm create astro@latest -- --template basics
-```
+# ゲームジャム高梁 - Astro版サイト
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## リポジトリ概要
 
-## 🚀 Project Structure
+ゲームジャム高梁」の公式ウェブサイトをAstroフレームワークで構築するためのものです
+このリポジトリは、ゲームジャム高梁の告知・運営・記録を目的としたWebサイトのソースコードを提供します。
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🚀 プロジェクト構成
+
+現在のプロジェクト構成は以下の通りです：
 
 ```text
-/
 ├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+│   └── ...（ファイル省略）
+├── src/
+│   ├── assets/
+│   │   ├── main.css
+│   │   └── main.js
+│   ├── common/
+│   ├── index/
+│   ├── components/
+│   │   ├── Footer.astro
+│   │   ├── NavBar.astro
+│   │   └── Welcome.astro
+│   ├── layouts/
+│   │   └── Layout.astro
+│   └── pages/
+│       ├── 404.astro
+│       ├── index.astro
+│       └── posts/
+│           └── index.md
+├── astro.config.mjs
+├── LICENSE.md
+├── package.json
+├── README.md
+└── tsconfig.json
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-## 🧞 Commands
+Astro プロジェクトのフォルダ構成について詳しく知りたい場合は、[プロジェクト構成ガイド](https://docs.astro.build/en/basics/project-structure/)をご覧ください。
 
-All commands are run from the root of the project, from a terminal:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 🧞 コマンド一覧
 
-## 👀 Want to learn more?
+すべてのコマンドはプロジェクトのルートディレクトリで、ターミナルから実行します：
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+| コマンド                      | 内容                                              |
+| :---------------------------- | :------------------------------------------------ |
+| `npm install`                 | 依存パッケージをインストールします                |
+| `npm run dev`                 | ローカル開発サーバーを `localhost:4321` で起動します |
+| `npm run build`               | 本番用サイトを `./dist/` にビルドします            |
+| `npm run preview`             | デプロイ前にローカルでビルドをプレビューします      |
+| `npm run astro ...`           | `astro add` や `astro check` などCLIコマンドを実行  |
+| `npm run astro -- --help`     | Astro CLIのヘルプを表示します                      |
+
+
+## 👀 さらに詳しく知りたい方へ
+
+[公式ドキュメント](https://docs.astro.build)をご覧ください。
